@@ -157,9 +157,11 @@ header .scrolldown a:hover {
   letter-spacing: 2.5px;
   margin: 0 auto;
   z-index: 100;
-  position: fixed;
+  position: absolute;
   left: 0;
   top: 0;
+
+  /* background-color: rgba(51, 51, 51, 0.712); */
 }
 .opaque {
   background-color: #333;
@@ -175,8 +177,6 @@ header .scrolldown a:hover {
 ul#nav {
   min-height: 48px;
   width: auto;
-
-  /* center align the menu */
   text-align: center;
 }
 ul#nav li {
@@ -188,8 +188,6 @@ ul#nav li {
 
 /* Links */
 ul#nav li a {
-  /* 8px padding top + 8px padding bottom + 32px line-height = 48px */
-
   display: inline-block;
   padding: 8px 13px;
   line-height: 32px;
@@ -207,7 +205,11 @@ ul#nav li a {
 ul#nav li a:active {
   background-color: transparent !important;
 }
-ul#nav li.current a {
+/* ul#nav li.current a {
+  color: rgb(84, 171, 230);
+} */
+
+.nav .ul .li .current {
   color: rgb(84, 171, 230);
 }
 
@@ -951,7 +953,7 @@ call-to-action .button {
   justify-content: space-around;
   flex-wrap: wrap;
   width: 20%;
-  font-size: 30px;
+  font-size: 50px;
 }
 
 #contact a,

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 class Header extends Component {
   render() {
@@ -18,7 +19,7 @@ class Header extends Component {
                 Home
               </a>
             </li>
-            <li>
+            <li className="current">
               <a className="smoothscroll" href="#about">
                 About
               </a>
@@ -104,7 +105,8 @@ class Header extends Component {
 
         <p className="scrolldown">
           <a className="smoothscroll" href="#about">
-            <i className="icon-down-circle"></i>
+            {/* <i className="icon-down-circle"></i> */}
+            <FontAwesomeIcon icon='arrow-circle-down'/>
           </a>
         </p>
       </header>

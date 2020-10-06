@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2020 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="up-big" unicode="&#xe800;" d="M899 308q0-28-21-50l-41-42q-22-21-51-21-30 0-50 21l-165 164v-393q0-29-20-47t-51-19h-71q-30 0-51 19t-21 47v393l-164-164q-20-21-50-21t-50 21l-42 42q-21 21-21 50 0 30 21 51l363 363q20 21 50 21 30 0 51-21l363-363q21-22 21-51z" horiz-adv-x="928.6" />
+
+<glyph glyph-name="emo-wink" unicode="&#xe801;" d="M261 800c-60 0-109-65-109-144 0-80 49-145 109-145s110 65 110 145c0 79-49 144-110 144z m343-98c-29 0-54-24-54-54 0-30 25-54 54-54l267 0c30 0 54 24 54 54 0 30-24 54-54 54l-267 0z m342-501c-13 0-27-5-37-16-4-4-8-8-12-12-111-109-253-164-396-165-142-2-285 50-396 155l-3 3-12 12c-21 21-54 20-75-1-20-21-20-55 1-76 3-4 8-8 14-14l3-3c132-124 301-186 469-184 169 1 337 67 468 195 5 5 9 10 14 14 20 22 20 56-1 77-10 10-23 15-37 15z" horiz-adv-x="999" />
+
+<glyph glyph-name="angle-double-up" unicode="&#xf102;" d="M600 118q0-7-6-13l-28-28q-5-5-12-5t-13 5l-220 219-219-219q-5-5-13-5t-12 5l-28 28q-6 6-6 13t6 13l260 260q5 5 12 5t13-5l260-260q6-6 6-13z m0 214q0-7-6-13l-28-28q-5-5-12-5t-13 5l-220 220-219-220q-5-5-13-5t-12 5l-28 28q-6 6-6 13t6 13l260 260q5 6 12 6t13-6l260-260q6-6 6-13z" horiz-adv-x="642.9" />
+</font>
+</defs>
+</svg>
