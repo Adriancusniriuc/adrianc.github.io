@@ -47,13 +47,13 @@ class Header extends Component {
           </ul>
         </nav>
 
-        <div className="row banner">
+        <div className="row banner " id='one'>
           <div className="banner-text">
-            <div className="container">
+            <div className="container" id='container'>
               <svg
                 height="200"
                 stroke="#fff"
-                strokeWidth="2"
+                strokeWidth="3"
                 className="text-line"
                 width="100%"
               >

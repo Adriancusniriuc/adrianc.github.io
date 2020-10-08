@@ -1,9 +1,5 @@
 /*
-=====================================================================
-*   Ceevee v1.0 Layout Stylesheet
-*   url: styleshout.com
-*   03-18-2014
-=====================================================================
+
 
    TOC:
    a. General Styles
@@ -16,9 +12,6 @@
    h. Contact Section
    i. Footer
 
-===================================================================== */
-
-/* ------------------------------------------------------------------ */
 /* a. General Styles
 /* ------------------------------------------------------------------ */
 
@@ -64,6 +57,40 @@ header .banner {
 header .banner-text {
   width: 100%;
 }
+
+/* Unfold animation text ADRIAN CUSNIRIUC  */
+.text-line {
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+  animation: dash 5s linear forwards, filling 5s ease-in forwards;
+  font-size: 100px;
+  padding: 10px;
+}
+
+.text-line text {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes filling {
+  0%,
+  90% {
+    fill: #fff;
+    fill-opacity: 0;
+  }
+  100% {
+    fill: #fff;
+    fill-opacity: 1;
+  }
+}
+
 header .banner-text h1 {
   font: 90px/1.1em "opensans-bold", sans-serif;
   color: #fff;
@@ -213,56 +240,6 @@ ul#nav li a:active {
   color: rgb(84, 171, 230);
 }
 
-/* navhere */
-
-/* Unfold animation text  */
-.text-line {
-  stroke-dasharray: 500;
-  stroke-dashoffset: 500;
-  animation: dash 5s linear forwards, filling 5s ease-in forwards;
-  font-size: 100px;
-  padding: 10px;
-}
-
-.text-line text {
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: normal;
-  font-style: normal;
-}
-
-@keyframes dash {
-  to {
-    stroke-dashoffset: 0;
-  }
-}
-
-@keyframes filling {
-  0%,
-  90% {
-    fill: #fff;
-    fill-opacity: 0;
-  }
-  100% {
-    fill: #fff;
-    fill-opacity: 1;
-  }
-}
-
-/* //Text home mobile:  */
-@media only screen and (max-width: 600px) {
-  .text-line text {
-    font-size: 2.5rem;
-  }
-  .column is-6-mobile {
-    width: auto;
-  }
-}
-
-/* .column {
-  margin-top: 40px;
-} */
-
-/* ------------------------------------------------------------------ */
 /* c. About Section
 /* ------------------------------------------------------------------ */
 
@@ -343,15 +320,6 @@ ul#nav li a:active {
   font-size: 30px;
   margin-bottom: 0px;
   margin-top: 10px;
-}
-
-#skills-grid {
-  /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  flex-wrap: wrap;
-  width: 60vw;
-  margin-left: 5%; */
 }
 
 .skills-line {
@@ -878,7 +846,7 @@ call-to-action .button {
 }
 /* Suggested container for slide animation setups. Can replace this with your own */
 .flex-container {
-  zoom: 1;
+  zoom: 4;
   position: relative;
 }
 
@@ -1214,6 +1182,32 @@ footer .social-links li:first-child {
 }
 
 @media only screen and (max-width: 600px) {
+  /* HEADER TEXT ANIMATION */
+
+  .text-line text {
+    font-size: 2.5rem;
+  }
+
+
+  #container{
+    margin-top: -25% !important;
+  }
+
+  #one{
+   margin-top: 40%;
+  }
+  header .banner {
+    background-color: rgba(0, 0, 0, 0.466);
+    width: 80%;
+    height: 300px;
+  }
+  header .charachteristics {
+    font-size: 35px;
+    font-weight: 500;
+    /* margin-top: -25% !important; */
+
+  }
+
   /* ABOUT */
   #about {
     display: flex;
@@ -1264,10 +1258,8 @@ footer .social-links li:first-child {
     line-height: 55px;
   }
 
-
   /* CONTACT */
-  #contact{
+  #contact {
     height: 100%;
-
   }
 }
