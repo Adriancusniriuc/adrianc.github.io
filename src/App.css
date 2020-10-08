@@ -319,22 +319,77 @@ ul#nav li a:active {
 /* d. Resume Section
 /* ------------------------------------------------------------------ */
 
-#resume {
-  background: #fff;
-  overflow: hidden;
+.resume {
+  display: flex;
+  flex-direction: column;
   width: 100%;
-  padding-top: 10%;
+  background-color: white;
+  align-items: center;
 }
+
+.resume h1 {
+  font: 18px/34px "opensans-bold", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-align: center;
+}
+.resume h1 span {
+  border-bottom: 3px solid #11abb0;
+  padding-bottom: 6px;
+}
+.resume h3 {
+  font: 18px/34px "opensans-bold", sans-serif;
+  font-size: 30px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+#skills-grid {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 60vw;
+  margin-left: 5%; */
+}
+
+.skills-line {
+  display: flex;
+  width: 100%;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.skill {
+  margin-right: 70px;
+}
+
+.relevant-experience {
+  display: flex;
+  justify-content: space-around;
+  width: 80vw;
+  height: 50%;
+  margin-top: 5%;
+}
+.relevant-experience-column1 {
+  width: 10vw;
+  text-align: center;
+  height: 100%;
+}
+.relevant-experience-column2 {
+  width: 60vw;
+  height: 100%;
+}
+
+/*
 
 .resume {
   width: 100%;
   margin-left: 8%;
   display: flex;
-  justify-content: center;
-}
-
-.skills-header {
-  width: 10%;
+  flex-wrap: wrap;
 }
 
 .skills-grid {
@@ -351,7 +406,7 @@ ul#nav li a:active {
   flex-wrap: wrap;
 }
 
-.skill-tex {
+.skill-text {
   font: 18px/34px "opensans-bold", sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -360,36 +415,33 @@ ul#nav li a:active {
 }
 
 .experience {
-  width: 100%;
-  height: 100%;
   display: flex;
-  justify-content: space-around;
-  margin-left: 9%;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-left: -5%;
   margin-top: 5%;
 }
 
 .experience1 {
-  width: 80%;
+  width: 55vw;
+  margin-left: 20px;
+}
+
+/* .skills-header {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  /* margin-top: %; */
-}
-
-.experience-element {
-  width: 60%;
-}
-
-/* #resume a,
-#resume a:visited {
-  color: rgb(84, 171, 230);
-}
-#resume a:hover,
-#resume a:focus {
-  color: rgb(84, 171, 230);
+  width: 250px;
 } */
 
-.project a:visited {
+/* .expertise {
+  font-size: 10px;
+  width: 8vw;
+}
+.experience-element {
+  width: 100%;
+} */
+*/ .project a:visited {
   color: rgb(84, 171, 230);
 }
 
@@ -398,37 +450,7 @@ ul#nav li a:active {
   color: #11abb0;
 }
 
-#resume h1 {
-  font: 18px/34px "opensans-bold", sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-weight: 700;
-}
-#resume h1 span {
-  border-bottom: 3px solid #11abb0;
-  padding-bottom: 6px;
-}
-#resume h3 {
-  font-family: "Roboto", sans-serif;
-  font-size: 30px;
-  margin-bottom: 0px;
-  margin-top: 10px;
-}
-
-#resume .header-col {
-  padding-top: 9px;
-}
-#resume .main-col {
-  padding-right: 10%;
-}
-
-.education,
-.work {
-  margin-bottom: 48px;
-  padding-bottom: 24px;
-  border-bottom: 1px solid #e8e8e8;
-}
-#resume .info {
+.resume .info {
   font: 17px/24px "librebaskerville-italic", serif;
   color: #6e7881;
   margin-bottom: 18px;
@@ -436,22 +458,19 @@ ul#nav li a:active {
   font-family: "Libre Baskerville", serif;
   font-weight: 600;
 }
-#resume .info span {
-  margin-right: 5px;
-  margin-left: 5px;
-}
-#resume .date {
-  font: 15px/24px "opensans-regular", sans-serif;
-  margin-top: 6px;
-}
 
-#resume .description {
+.resume .description {
   font-size: 20px;
-  font-family: "opensans-regular", sans-serif;
   font-family: "opensans-regular", sans-serif;
   font-weight: normal;
   line-height: 30px;
   color: #838c95;
+  text-align: justify;
+}
+
+.expertise {
+  font-size: 10px;
+  text-align: center;
 }
 
 /* e. Portfolio Section
@@ -1192,4 +1211,63 @@ footer .social-links li:first-child {
 }
 #go-top a:hover {
   background-color: rgb(84, 171, 230);
+}
+
+@media only screen and (max-width: 600px) {
+  /* ABOUT */
+  #about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .profilePic {
+    margin-left: -120px;
+  }
+
+  /* RESUME */
+
+  .relevant-experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .resume h1 {
+    text-align: center;
+    width: max-content;
+    margin-left: -95px !important;
+    margin-bottom: 20px;
+  }
+  .resume span {
+    justify-content: center;
+    width: max-content;
+  }
+
+  .skills-line {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+  }
+
+  /* portfolio */
+
+  #portfolio h1 {
+    width: 100%;
+    line-height: 55px;
+  }
+
+  #interests h1 {
+    width: 100%;
+    line-height: 55px;
+  }
+
+
+  /* CONTACT */
+  #contact{
+    height: 100%;
+
+  }
 }

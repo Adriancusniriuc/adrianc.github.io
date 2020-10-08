@@ -5,8 +5,7 @@ class About extends Component {
   render() {
     return (
       <section id="about">
-        {/* <div className="row">
-          <div className="three columns"> */}
+  
           <div className='profilePic'>
             <img
               className="profile-pic"
