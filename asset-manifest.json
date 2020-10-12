@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/adrianc.github.io/static/css/main.35aa3aa0.chunk.css",
+    "main.css": "/adrianc.github.io/static/css/main.6779b70d.chunk.css",
     "main.js": "/adrianc.github.io/static/js/main.a74df9bb.chunk.js",
     "main.js.map": "/adrianc.github.io/static/js/main.a74df9bb.chunk.js.map",
     "runtime-main.js": "/adrianc.github.io/static/js/runtime-main.e55b20de.js",
@@ -8,9 +8,9 @@
     "static/js/2.ec94cac7.chunk.js": "/adrianc.github.io/static/js/2.ec94cac7.chunk.js",
     "static/js/2.ec94cac7.chunk.js.map": "/adrianc.github.io/static/js/2.ec94cac7.chunk.js.map",
     "index.html": "/adrianc.github.io/index.html",
-    "precache-manifest.37ecad3258daf7c93385c613379b7844.js": "/adrianc.github.io/precache-manifest.37ecad3258daf7c93385c613379b7844.js",
+    "precache-manifest.ddd9fbf620d374ea9abe767f80e7faee.js": "/adrianc.github.io/precache-manifest.ddd9fbf620d374ea9abe767f80e7faee.js",
     "service-worker.js": "/adrianc.github.io/service-worker.js",
-    "static/css/main.35aa3aa0.chunk.css.map": "/adrianc.github.io/static/css/main.35aa3aa0.chunk.css.map",
+    "static/css/main.6779b70d.chunk.css.map": "/adrianc.github.io/static/css/main.6779b70d.chunk.css.map",
     "static/js/2.ec94cac7.chunk.js.LICENSE.txt": "/adrianc.github.io/static/js/2.ec94cac7.chunk.js.LICENSE.txt",
     "static/media/BookClub.jpg": "/adrianc.github.io/static/media/BookClub.da8e8432.jpg",
     "static/media/CrimeCheck.jpg": "/adrianc.github.io/static/media/CrimeCheck.35195b8e.jpg",
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.e55b20de.js",
     "static/js/2.ec94cac7.chunk.js",
-    "static/css/main.35aa3aa0.chunk.css",
+    "static/css/main.6779b70d.chunk.css",
     "static/js/main.a74df9bb.chunk.js"
   ]
 }
