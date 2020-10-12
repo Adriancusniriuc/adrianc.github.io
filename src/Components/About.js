@@ -6,7 +6,7 @@ class About extends Component {
     return (
       <section id="about">
   
-            <div>
+            <div className='profilePicture'>
             <img
               className="profile-pic"
               src={profilepic}
