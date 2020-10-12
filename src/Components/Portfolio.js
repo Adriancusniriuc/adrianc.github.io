@@ -41,6 +41,7 @@ class Portfolio extends Component {
                 -React,JavaScript, Redux <br />
                 -Firebase and Stripe
                 <br />- Personal project for development of React Skills <br />
+                -Website + deployment in progress(GITUB REPO AVAILABLE)
               </p>
             </div>
           </div>
@@ -59,7 +60,8 @@ class Portfolio extends Component {
 
               <a
                 className="icon-portfolio"
-                href="   https://adriancusniriuc.github.io/lordsofzanora/"
+                href="   https://adriancusniriuc.github.io/lordsofzanora/
+                "
                 target="_blank"
                 rel="noopener noreferrer"
               >
