@@ -3,6 +3,10 @@ import BookClub from "../assets/portfolio/BookClub.jpg";
 import CrimeCheck from "../assets/portfolio/CrimeCheck.jpg";
 import Pubquiz from "../assets/portfolio/Pubquiz.jpg";
 import Snake from "../assets/portfolio/Snake.jpg";
+import Cuplu from "../assets/portfolio/Cuplu1.jpg";
+import Provocarea from "../assets/portfolio/Provocarea.jpg";
+import Zanora from "../assets/portfolio/Zanora.jpg";
+import ecommerce from "../assets/portfolio/ecommerce.jpg";
 
 class Portfolio extends Component {
   render() {
@@ -10,6 +14,127 @@ class Portfolio extends Component {
       <section id="portfolio">
         <h1 className="title">Check Out Some of My Work!</h1>
         <div className="projects">
+          <div className="project">
+            <img alt="Project04" src={ecommerce} />
+
+            <div className="projectlinks">
+              <a
+                href="https://github.com/Adriancusniriuc/commerce/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fa fa-github"></i>
+              </a>
+
+              <a
+                className="icon-portfolio"
+                href="   https://adriancusniriuc.github.io/commerce/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fa fa-link"></i>
+              </a>
+            </div>
+
+            <div className="projectinfo">
+              <p>
+                -React,JavaScript, Redux <br />
+                -Firebase and Stripe
+                <br />- Personal project for development of React Skills <br />
+              </p>
+            </div>
+          </div>
+
+          <div className="project">
+            <img alt="Project03" src={Zanora} />
+
+            <div className="projectlinks">
+              <a
+                href="https://github.com/Adriancusniriuc/lordsofzanora/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fa fa-github"></i>
+              </a>
+
+              <a
+                className="icon-portfolio"
+                href="   https://adriancusniriuc.github.io/lordsofzanora/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fa fa-link"></i>
+              </a>
+            </div>
+
+            <div className="projectinfo">
+              <p>
+                -React, Html 5, CSS, JavaScript
+                <br />- Website built for a board game. <br />
+              </p>
+            </div>
+          </div>
+
+          <div className="project">
+            <img alt="Project02" src={Provocarea} />
+
+            <div className="projectlinks">
+              <a
+                href="https://github.com/Adriancusniriuc/vf-03-provocare/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fa fa-github"></i>
+              </a>
+
+              <a
+                className="icon-portfolio"
+                href="   https://adriancusniriuc.github.io/vf-03-provocare/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fa fa-link"></i>
+              </a>
+            </div>
+
+            <div className="projectinfo">
+              <p>
+                -React, Html 5, CSS
+                <br />- Complex static website with emphasis on CSS3
+              </p>
+            </div>
+          </div>
+
+          <div className="project">
+            <img alt="Project01" src={Cuplu} />
+
+            <div className="projectlinks">
+              <a
+                href="https://github.com/Adriancusniriuc/vf-01/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fa fa-github"></i>
+              </a>
+
+              <a
+                className="icon-portfolio"
+                href="https://adriancusniriuc.github.io/vf-01/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fa fa-link"></i>
+              </a>
+            </div>
+
+            <div className="projectinfo">
+              <p>
+                - Html 5, CSS
+                <br />- Basic one pager website for a motivational speaker
+              </p>
+            </div>
+          </div>
+
           <div className="project">
             <img alt="BookClub" src={BookClub} />
             {/* <div className="link-icon">
@@ -131,8 +256,9 @@ class Portfolio extends Component {
                 <i className="fa fa-github"></i>
               </a>
 
-              <a className='icon-portfolio'
-                href="https://github.com/Adriancusniriuc/project01-snake-game"
+              <a
+                className="icon-portfolio"
+                href="https://adriancusniriuc.github.io/project01-snake-game/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -157,4 +283,3 @@ class Portfolio extends Component {
   }
 }
 export default Portfolio;
-

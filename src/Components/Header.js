@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 class Header extends Component {
   render() {
@@ -47,9 +47,9 @@ class Header extends Component {
           </ul>
         </nav>
 
-        <div className="row banner " id='one'>
+        <div className="row banner " id="one">
           <div className="banner-text">
-            <div className="container" id='container'>
+            <div className="container" id="container">
               <svg
                 height="200"
                 stroke="#fff"
@@ -106,7 +106,7 @@ class Header extends Component {
         <p className="scrolldown">
           <a className="smoothscroll" href="#about">
             {/* <i className="icon-down-circle"></i> */}
-            <FontAwesomeIcon icon='arrow-circle-down'/>
+            <FontAwesomeIcon icon="arrow-circle-down" />
           </a>
         </p>
       </header>

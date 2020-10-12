@@ -1188,13 +1188,12 @@ footer .social-links li:first-child {
     font-size: 2.5rem;
   }
 
-
-  #container{
+  #container {
     margin-top: -25% !important;
   }
 
-  #one{
-   margin-top: 40%;
+  #one {
+    margin-top: 40%;
   }
   header .banner {
     background-color: rgba(0, 0, 0, 0.466);
@@ -1205,7 +1204,6 @@ footer .social-links li:first-child {
     font-size: 35px;
     font-weight: 500;
     /* margin-top: -25% !important; */
-
   }
 
   /* ABOUT */
