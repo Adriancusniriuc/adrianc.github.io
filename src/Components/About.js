@@ -6,13 +6,15 @@ class About extends Component {
     return (
       <section id="about">
   
-          <div className='profilePic'>
+            <div>
             <img
               className="profile-pic"
               src={profilepic}
               alt="Adrian Cusniriuc profile pic"
             />
-          </div>
+            </div>
+
+ 
           <div className="text-about-me">
             <h2>About Me</h2>
             <p>

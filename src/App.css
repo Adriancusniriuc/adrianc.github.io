@@ -160,9 +160,9 @@ header .scrolldown a {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-header .scrolldown a:hover {
+/* header .scrolldown a:hover {
   color: rgb(84, 171, 230);
-}
+} */
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -197,7 +197,7 @@ header .scrolldown a:hover {
 /* hide toggle button */
 #nav-wrap > a.mobile-btn {
   display: none;
-  background-color: rgb(84, 171, 230);
+  /* background-color: rgb(84, 171, 230); */
   border-radius: 100%;
 }
 
@@ -220,7 +220,7 @@ ul#nav li a {
   line-height: 32px;
   text-decoration: none;
   text-align: left;
-  color: #fff;
+  color:rgb(84, 171, 230);
 
   -webkit-transition: color 0.2s ease-in-out;
   -moz-transition: color 0.2s ease-in-out;
@@ -229,19 +229,19 @@ ul#nav li a {
   transition: color 0.2s ease-in-out;
 }
 
-ul#nav li a:active {
+/* ul#nav li a:active {
   background-color: transparent !important;
-  
-}
+  color: white;
+} */
+
 /* ul#nav li.current a {
   color: rgb(84, 171, 230);
 } */
 
-.nav .ul .li .current {
-  /* color: rgb(84, 171, 230);  */
-  color: red;
-
-}
+/* .nav .ul .li .current {
+  color: rgb(84, 171, 230);
+  color: white;
+} */
 
 /* c. About Section
 /* ------------------------------------------------------------------ */
@@ -250,16 +250,9 @@ ul#nav li a:active {
   background: #4a525f;
   padding-top: 96px;
   padding-bottom: 66px;
-  overflow: hidden;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-}
-.profilePic {
-  width: 20%;
-  height: 150px;
-  padding-right: 2%;
-  margin-top: 2%;
 }
 
 .text-about-me {
@@ -274,10 +267,10 @@ ul#nav li a:active {
 #about a:visited {
   color: #fff;
 }
-#about a:hover,
+/* #about a:hover,
 #about a:focus {
   color: rgb(84, 171, 230);
-}
+} */
 
 #about h2 {
   font: 22px/30px "opensans-bold", sans-serif;
@@ -290,7 +283,7 @@ ul#nav li a:active {
   font-size: 20px;
 }
 #about .profile-pic {
-  position: relative;
+  /* position: relative; */
   width: 250px;
   height: 350px;
   border-radius: 20%;
@@ -366,7 +359,6 @@ ul#nav li a:active {
   /* color: rgb(6, 59, 94);
    */
   color: #4a525f;
-
 }
 
 .resume .info {
@@ -707,8 +699,6 @@ call-to-action .button {
   margin-right: -40px;
 }
 
-
-
 /* Reset */
 .flexslider a:active,
 .flexslider a:focus {
@@ -852,7 +842,6 @@ call-to-action .button {
 #contact a:focus {
   color: rgb(84, 171, 230);
 }
-
 
 /* Interests */
 #interests {
@@ -1002,29 +991,9 @@ footer .social-links li:first-child {
   }
 
   /* ABOUT */
-  #about {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
 
 
-  #about .profile-pic {
-    /* position: absolute; */
-    width: 280px;
-    height: 350px;
-    border-radius: 20%;
-    margin-left: -90px;
-  }
-
-  .profilePic {
-    width: 20%;
-    height: 150px;
-    padding-right: 2%;
-    margin-top: 2%;
-  }
-
+  
   /* RESUME */
 
   .relevant-experience {
