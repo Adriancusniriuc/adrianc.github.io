@@ -2,7 +2,7 @@ import React, { Component } from "react";
 class Resume extends Component {
   render() {
     return (
-      <div className="resume">
+      <div className="resume" id='resume'>
         <div className="relevant-experience">
           <div className="relevant-experience-column1">
             <h1>

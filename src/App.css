@@ -351,71 +351,18 @@ ul#nav li a:active {
   height: 100%;
 }
 
-/*
-
-.resume {
-  width: 100%;
-  margin-left: 8%;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.skills-grid {
-  width: 80%;
-  flex-wrap: wrap;
-}
-
-.skills {
-  display: flex;
-  justify-content: space-around;
-  width: 80%;
-  margin-top: 10px;
-  color: rgba(15, 15, 15, 0.603);
-  flex-wrap: wrap;
-}
-
-.skill-text {
-  font: 18px/34px "opensans-bold", sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-weight: 700;
-  color: #000000;
-}
-
-.experience {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  width: 100%;
-  margin-left: -5%;
-  margin-top: 5%;
-}
-
-.experience1 {
-  width: 55vw;
-  margin-left: 20px;
-}
-
-/* .skills-header {
-  display: flex;
-  justify-content: center;
-  width: 250px;
-} */
-
-/* .expertise {
-  font-size: 10px;
-  width: 8vw;
-}
-.experience-element {
-  width: 100%;
-} */
-*/ .project a:visited {
+.project a:visited {
   color: rgb(84, 171, 230);
+  /* color: red; */
 }
 
 .project a:hover,
 .project a:focus {
-  color: #11abb0;
+  /* color: #11abb0; */
+  /* color: rgb(6, 59, 94);
+   */
+  color: #4a525f;
+
 }
 
 .resume .info {
@@ -756,57 +703,7 @@ call-to-action .button {
   margin-right: -40px;
 }
 
-/* #testimonials .text-container {
-   padding-top: 96px;
-   padding-bottom: 66px;
-} */
-/* #testimonials h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
-   text-transform: uppercase;
-   letter-spacing: 3px;
-   color: #fff;
-} */
-/* #testimonials h1 span { display: none; }
-#testimonials .header-col { padding-top: 9px; }
-#testimonials .header-col h1:before {
-   font-family: 'FontAwesome';
-   content: "\f10d";
-	padding-right: 10px;
-	font-size: 72px;
-   line-height: 72px;
-   text-align: left;
-   float: left;
-   color: #fff;
-} */
 
-/* Blockquotes
-#testimonials blockquote {
-   margin: 0 0px 30px 0px;
-   padding-left: 0;
-   position: relative;
-   text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
-}
-#testimonials blockquote:before { content: none; }
-#testimonials blockquote p {
-   font-family: 'librebaskerville-italic', serif;
-   padding: 0;
-   font-size: 24px;
-   line-height: 48px;
-   color: #fff
-}
-#testimonials blockquote cite {
-   display: block;
-   font-size: 12px;
-   font-style: normal;
-   line-height: 18px;
-   color: #fff;
-}
-#testimonials blockquote cite:before { content: "\2014 \0020"; }
-#testimonials blockquote cite a,
-#testimonials blockquote cite a:visited { color: #8B9798; border: none } */
-
-/* Flex Slider
-/* ------------------------------------------ ------------------------ */
 
 /* Reset */
 .flexslider a:active,
