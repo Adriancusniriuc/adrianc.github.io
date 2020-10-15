@@ -140,6 +140,8 @@ header .social li a:hover {
   color: rgb(84, 171, 230);
 }
 
+
+
 /* scrolldown link */
 header .scrolldown a {
   position: absolute;
@@ -173,6 +175,7 @@ header .scrolldown a {
   padding: 0;
   border: none;
   outline: none;
+  color: white;
 }
 
 /* nav-wrap */
@@ -220,7 +223,8 @@ ul#nav li a {
   line-height: 32px;
   text-decoration: none;
   text-align: left;
-  color:rgb(84, 171, 230);
+  /* color:rgb(84, 171, 230); */
+  color: white;
 
   -webkit-transition: color 0.2s ease-in-out;
   -moz-transition: color 0.2s ease-in-out;
@@ -229,10 +233,10 @@ ul#nav li a {
   transition: color 0.2s ease-in-out;
 }
 
-/* ul#nav li a:active {
+ul#nav li a:hover {
   background-color: transparent !important;
-  color: white;
-} */
+  color: rgb(84, 171, 230);
+}
 
 /* ul#nav li.current a {
   color: rgb(84, 171, 230);
@@ -283,10 +287,11 @@ ul#nav li a {
   font-size: 20px;
 }
 #about .profile-pic {
-  /* position: relative; */
+  position: relative;
   width: 250px;
   height: 350px;
   border-radius: 20%;
+  z-index: 5;
 }
 
 /* ------------------------------------------------------------------ */
@@ -358,7 +363,7 @@ ul#nav li a {
   /* color: #11abb0; */
   /* color: rgb(6, 59, 94);
    */
-  color: #4a525f;
+  color: rgb(84, 171, 230);
 }
 
 .resume .info {
@@ -418,6 +423,20 @@ ul#nav li a {
   height: 200px;
   margin-left: 10%;
 }
+
+.icon-portfolio {
+  color: rgb(84, 171, 230);
+}
+#portfolio a:visited,
+#portfolio a:hover{
+color: black;
+}
+/* #portfolio a:visited{
+  color: #11abb0;
+} */
+
+
+/* #portfolio a:focus */
 
 /* Portfolio Content */
 #portfolio-wrapper .columns {
@@ -515,7 +534,7 @@ ul#nav li a {
 }
 
 /* popup modal */
-.popup-modal {
+/* .popup-modal {
   max-width: 550px;
   background: #fff;
   position: relative;
@@ -562,7 +581,7 @@ ul#nav li a {
 }
 .popup-modal a.popup-modal-dismiss {
   margin-left: 24px;
-}
+} */
 
 .projectinfo {
   text-align: left;
@@ -581,19 +600,19 @@ ul#nav li a {
   padding-top: 10px;
 }
 
-.popup-modal .projectlinks {
+/* .popup-modal .projectlinks {
   display: flex;
   text-align: center;
   font-size: 40px;
   justify-content: space-around;
-}
+} */
 
-.popup-modal a:hover {
+/* .popup-modal a:hover {
   color: rgb(84, 171, 230);
 }
 .popup-modal a.popup-modal-dismiss {
   margin-left: 24px;
-}
+} */
 
 /* fadein/fadeout effect for modal popup
 /* ------------------------------------------------------------------ */
@@ -768,13 +787,13 @@ call-to-action .button {
 }
 
 /* Control Nav */
-.flex-control-nav {
+/* .flex-control-nav {
   width: 100%;
   position: absolute;
   bottom: -20px;
   text-align: left;
-}
-.flex-control-nav li {
+} */
+/* .flex-control-nav li {
   margin: 0 6px;
   display: inline-block;
   zoom: 1;
@@ -802,7 +821,7 @@ call-to-action .button {
   background: #fff;
   background: rgba(255, 255, 255, 0.9);
   cursor: default;
-}
+} */
 
 /* ------------------------------------------------------------------ */
 /* h. Contact Section
@@ -908,7 +927,7 @@ footer .copyright li {
   display: inline;
 }
 footer .copyright li:before {
-  content: "\2022";
+  /* content: "\2022"; */
   padding-left: 10px;
   padding-right: 10px;
   color: rgb(84, 171, 230);
@@ -991,19 +1010,28 @@ footer .social-links li:first-child {
   }
 
   /* ABOUT */
-
-  .profilePicture{
+  .profilePicture img {
+    position: relative;
     width: 250px;
     height: 350px;
+    border-radius: 20%;
+    z-index: 5;
   }
 
-  #about{
+  .profilePicture {
+    position: relative;
+    width: 250px;
+    height: 350px;
+    border-radius: 20%;
+    z-index: 5;
+  }
+
+  #about {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  
   /* RESUME */
 
   .relevant-experience {

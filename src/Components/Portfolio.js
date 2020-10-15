@@ -19,6 +19,7 @@ class Portfolio extends Component {
 
             <div className="projectlinks">
               <a
+                className="icon-portfolio"
                 href="https://github.com/Adriancusniriuc/commerce/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -51,6 +52,7 @@ class Portfolio extends Component {
 
             <div className="projectlinks">
               <a
+                className="icon-portfolio"
                 href="https://github.com/Adriancusniriuc/lordsofzanora/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -82,6 +84,7 @@ class Portfolio extends Component {
 
             <div className="projectlinks">
               <a
+                className="icon-portfolio"
                 href="https://github.com/Adriancusniriuc/vf-03-provocare/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -112,6 +115,7 @@ class Portfolio extends Component {
 
             <div className="projectlinks">
               <a
+                className="icon-portfolio"
                 href="https://github.com/Adriancusniriuc/vf-01/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -145,6 +149,7 @@ class Portfolio extends Component {
 
             <div className="projectlinks">
               <a
+                className="icon-portfolio"
                 href="https://github.com/Adriancusniriuc/BookClub"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -153,6 +158,7 @@ class Portfolio extends Component {
               </a>
 
               <a
+                className="icon-portfolio"
                 href="https://sei45-bookclub.herokuapp.com/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -181,6 +187,7 @@ class Portfolio extends Component {
 
             <div className="projectlinks">
               <a
+                className="icon-portfolio"
                 href="https://github.com/CampbellDavid/sei-project-03"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -189,6 +196,7 @@ class Portfolio extends Component {
               </a>
 
               <a
+                className="icon-portfolio"
                 href="http://project-three-sei45.herokuapp.com"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -217,6 +225,7 @@ class Portfolio extends Component {
 
             <div className="projectlinks">
               <a
+                className="icon-portfolio"
                 href="https://github.com/Adriancusniriuc/Project-02-CrimeCheck"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -225,6 +234,7 @@ class Portfolio extends Component {
               </a>
 
               <a
+                className="icon-portfolio"
                 href="https://crimecheck.herokuapp.com"
                 title="Crime Check"
                 target="_blank"
@@ -251,6 +261,7 @@ class Portfolio extends Component {
 
             <div className="projectlinks">
               <a
+                className="icon-portfolio"
                 href="https://github.com/Adriancusniriuc/project01-snake-game"
                 target="_blank"
                 rel="noopener noreferrer"
